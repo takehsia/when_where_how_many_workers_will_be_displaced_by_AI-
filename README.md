@@ -10,6 +10,7 @@ The analysis accounts for heterogeneity across industries and firm sizes (SMEs
 vs. Large Corporations), treating digital infrastructure as a critical governor
 of AI deployment speed.
 If you run the code, please download all files and keep the structure of folder. 
+If the CSV file extension gets changed during the download, please change it back to .csv before running the code.
 
 # Code Structure and File Descriptions
 
