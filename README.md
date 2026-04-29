@@ -9,13 +9,15 @@ software usage) to project job displacement trajectories from 2023 to 2055.
 The analysis accounts for heterogeneity across industries and firm sizes (SMEs
 vs. Large Corporations), treating digital infrastructure as a critical governor
 of AI deployment speed.
-If you run the code, please download all files and keep the structure of folder. 
+
+Please download all files and keep the structure of folder, and run codes. 
 If the CSV file extension gets changed during the download, please change it back to .csv before running the code.
 
 # Code Structure and File Descriptions
 
 # 1. Main Analysis (Simulation)
 You can get all table and figures included the paper with running this code.
+
 File: Submit_260429_Main_Analysis.ipynb
   - Description: The core simulation engine. It runs a Monte Carlo simulation
     (1,000 replicates) combining AI evolution, digital infra diffusion, and
