@@ -54,26 +54,6 @@ File: submit_260419_DII_speed_parameter.ipynb
   - Output: DX_Adoption_Speed_K_6_4.csv
 
 
-# 2.3. Data Integration and Cleaning
-This is for replication of data integration and cleaning.
-You can run the main analysis code without running the data integration and cleaning code, since the cleaned datasets have already been saved in the repository.
-
-Note: Since some original detests are so large and require a high-performance computing system to process. If you run this code in your local environment, it will not work well.
-If high performance computing systems are not available, please use the cleaned datasets, that have already been in the repository.
-
-Folder: Data_integration_cleaning
-File: submit_260402_Data_integration_and_cleaning.ipynb
-
-  - Description: This is the primary preprocessing script. It handles the raw
-    Excel files from BLS and SUSB, standardizes NAICS codes, removes broad
-    aggregate categories to retain granular 6-digit industry data, and creates a
-    longitudinal panel (2012-2022) for historical trend estimation.
-  - Input: Raw BLS (all_data_M_2024.xlsx) and multi-year SUSB Excel files.
-  - Output:
-      - bls_staffing_pattern_exclude_multipler1.csv
-      - Employment_and_Payroll_by_industry_by_companysize_susb_united_states_only.csv
-      - SUSB_Final_Regression_Data_a_h_i_Only.csv
-
 Data Sources
 
 The simulation utilizes several external datasets:
