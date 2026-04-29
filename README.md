@@ -9,11 +9,13 @@ software usage) to project job displacement trajectories from 2023 to 2055.
 The analysis accounts for heterogeneity across industries and firm sizes (SMEs
 vs. Large Corporations), treating digital infrastructure as a critical governor
 of AI deployment speed.
+If you run the code, please download all files and keep the structure of folder. 
 
 # Code Structure and File Descriptions
 
 # 1. Main Analysis (Simulation)
-File: submit_260419_Analysis_Cloud_Soft_.py
+You can get all table and figures included the paper with running this code.
+File: Submit_260428_Main_Analysis.ipynb
   - Description: The core simulation engine. It runs a Monte Carlo simulation
     (1,000 replicates) combining AI evolution, digital infra diffusion, and
     historical industry growth. It produces year-by-year projections of job
@@ -28,6 +30,7 @@ File: submit_260419_Analysis_Cloud_Soft_.py
 
 # 2. Supplementary Materials 
 # 2.1. AI Evolution Estimation
+Folder:eci-public-main
 File: fit_eci_submit.ipynb
 
   - Description: Analyzes the progress of AI capabilities. It uses Item Response
@@ -40,7 +43,7 @@ File: fit_eci_submit.ipynb
     parameters used for the Monte Carlo simulation.
 
 # 2.2. Digital Infrastructure Development Speed
-File: submit_260419_DII_speed_parameter.py
+File: submit_260419_DII_speed_parameter.ipynb
 
   - Description: Computes the "d" parameter (diffusion speed) for digital
     infrastructure. It compares adoption rates of cloud and software
@@ -56,10 +59,10 @@ This is for replication of data integration and cleaning.
 You can run the main analysis code without running the data integration and cleaning code, since the cleaned datasets have already been saved in the repository.
 
 Note: Since some original detests are so large and require a high-performance computing system to process. If you run this code in your local environment, it will not work well.
-If high performance computing systems are not available, please use the cleaned dataset, which is in the same repository.
+If high performance computing systems are not available, please use the cleaned datasets, that have already been in the repository.
 
 Folder: Data_integration_cleaning
-File: submit_260402_Data_integration_and_cleaning.py
+File: submit_260402_Data_integration_and_cleaning.ipynb
 
   - Description: This is the primary preprocessing script. It handles the raw
     Excel files from BLS and SUSB, standardizes NAICS codes, removes broad
