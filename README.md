@@ -52,10 +52,13 @@ File: submit_260419_DII_speed_parameter.py
 
 
 # 2.3. Data Integration and Cleaning
+This is for replication of data integration and cleaning.
+You can run the main analysis code without running the data integration and cleaning code, since the cleaned datasets have already been saved in the repository.
 
 Note: Since some original detests are so large and require a high-performance computing system to process. If you run this code in your local environment, it will not work well.
 If high performance computing systems are not available, please use the cleaned dataset, which is in the same repository.
 
+Folder: Data_integration_cleaning
 File: submit_260402_Data_integration_and_cleaning.py
 
   - Description: This is the primary preprocessing script. It handles the raw
